@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Doctor, calculateWaitTime } from "./doc_queue.js";
+import { Doctor, calculateWaitTime } from "./patients_queue.js";
 
 describe("calculateWaitTime", () => {
 	it("should calculate correct wait time for 2 doctors", () => {
