@@ -1,0 +1,23 @@
+{
+  "name": "noak-test",
+  "version": "1.0.0",
+  "main": "doc_queue.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shariski/patients-queue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shariski/patients-queue/issues"
+  },
+  "homepage": "https://github.com/shariski/patients-queue#readme",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
+}
