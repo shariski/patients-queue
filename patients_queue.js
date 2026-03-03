@@ -21,7 +21,7 @@ export function calculateWaitTime(doctors, position) {
 		throw new Error("Queue start at 1");
 	}
 
-	// Re initiation, so operations don't update referenced objects.
+	// Re-initiation, so operations don't update referenced objects.
 	const states = doctors.map(o => new Doctor(o.name, o.avgTime));
 
 	for (let i = 1; i <= position; i++) {
@@ -44,3 +44,6 @@ export function calculateWaitTime(doctors, position) {
 		selectedDoctor.assignPatient();
 	}
 }
+
+const doctors = [new Doctor("John", 3), new Doctor("Ricky", 4)];
+console.log("Waiting time:", calculateWaitTime(doctors, 6));
